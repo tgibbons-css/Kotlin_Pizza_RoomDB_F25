@@ -2,6 +2,6 @@
 plugins {
     alias(libs.plugins.android.application) apply false
     alias(libs.plugins.kotlin.android) apply false
+    alias(libs.plugins.kotlin.compose) apply false
     alias(libs.plugins.ksp) apply false
-    // Do NOT use kotlin.compose with Kotlin 1.9.x. Leave it out.
 }
